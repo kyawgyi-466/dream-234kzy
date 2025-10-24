@@ -15,7 +15,7 @@ B="\e[1;34m"; G="\e[1;32m"; Y="\e[1;33m"; R="\e[1;31m"; C="\e[1;36m"; M="\e[1;35
 LINE="${B}────────────────────────────────────────────────────────${Z}"
 say(){ echo -e "$1"; }
 
-echo -e "\n$LINE\n${G}🌟 ZIVPN UDP Server + Web UI ကို U PHOE KAUNT မှ ရေးသားထားသည်${Z}\n$LINE"
+echo -e "\n$LINE\n${G}🌟 ZIVPN UDP Server + Web UI ကို KYAW234KZY မှ ရေးသားထားသည်${Z}\n$LINE"
 
 # ===== Root check =====
 if [ "$(id -u)" -ne 0 ]; then
@@ -226,7 +226,7 @@ CONFIG_FILE = "/etc/zivpn/config.json"
 LISTEN_FALLBACK = "5667"
 RECENT_SECONDS = 120
 
-LOGO_URL = "https://raw.githubusercontent.com/Upk123/upkvip-ziscript/refs/heads/main/20251018_231111.png"
+LOGO_URL = "https://raw.githubusercontent.com/kyawgyi-466/dream-234kzy/refs/heads/main/logo.png"
 
 HTML = """<!doctype html>
 <html lang="my"><head><meta charset="utf-8">
@@ -727,7 +727,7 @@ CONFIG_FILE = "/etc/zivpn/config.json"
 LISTEN_FALLBACK = "5667"
 RECENT_SECONDS = 120
 
-LOGO_URL = "https://raw.githubusercontent.com/Upk123/upkvip-ziscript/refs/heads/main/20251018_231111.png"
+LOGO_URL = "https://raw.githubusercontent.com/kyawgyi-466/dream-234kzy/refs/heads/main/logo.png"
 
 HTML = """<!doctype html>
 <html lang="my"><head><meta charset="utf-8">
