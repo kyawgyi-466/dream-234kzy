@@ -309,16 +309,16 @@ HTML = """<!doctype html>
     <div><label>🔑 Password</label><input name="password" required></div>
   </div>
   <div class="row">
-    <div><label>⏰ Expires (ထည့်သွင်းလိုသည့်ရက်)</label><input name="expires" placeholder="2025-12-31 or 30"></div>
-    <div><label>🔌 UDP Port (6000–19999)</label><input name="port" placeholder="auto"></div>
+    <div><label>📝 Expires (ထည့်သွင်းလိုသည့်ရက်)</label><input name="expires" placeholder="2025-12-31 or 30"></div>
+    <div><label>🚀 UDP Port (6000–19999)</label><input name="port" placeholder="auto"></div>
   </div>
   <button class="btn" type="submit">Save + Sync</button>
 </form>
 
 <table>
   <tr>
-    <th>👤 User</th><th>🔑 Password</th><th>⏰ Expires</th>
-    <th>🔌 Port</th><th>🔎 Status</th><th>🗑️ Delete</th>
+    <th>👤 User</th><th>🔑 Password</th><th>📝 Expires</th>
+    <th>🚀 Port</th><th>🔎 Status</th><th>🚮 Delete</th>
   </tr>
   {% for u in users %}
   <tr class="{% if u.expires and u.expires < today %}expired{% endif %}">
@@ -810,16 +810,16 @@ HTML = """<!doctype html>
     <div><label>🔑 Password</label><input name="password" required></div>
   </div>
   <div class="row">
-    <div><label>⏰ Expires (ထည့်သွင်းလိုသည့်ရက်)</label><input name="expires" placeholder="2025-12-31 or 30"></div>
-    <div><label>🔌 UDP Port (6000–19999)</label><input name="port" placeholder="auto"></div>
+    <div><label>📝 Expires (ထည့်သွင်းလိုသည့်ရက်)</label><input name="expires" placeholder="2025-12-31 or 30"></div>
+    <div><label>🚀 UDP Port (6000–19999)</label><input name="port" placeholder="auto"></div>
   </div>
   <button class="btn" type="submit">Save + Sync</button>
 </form>
 
 <table>
   <tr>
-    <th>👤 User</th><th>🔑 Password</th><th>⏰ Expires</th>
-    <th>🔌 Port</th><th>🔎 Status</th><th>🗑️ Delete</th>
+    <th>👤 User</th><th>🔑 Password</th><th>📝 Expires</th>
+    <th>🚀 Port</th><th>🔎 Status</th><th>🚮 Delete</th>
   </tr>
   {% for u in users %}
   <tr class="{% if u.expires and u.expires < today %}expired{% endif %}">
