@@ -50,11 +50,11 @@ ask_credentials() {
   fi
   say "\n\033[1;33m🔐 Admin Login သတ်မှတ်ပါ\033[0m"
   while :; do
-    read -rp "Admin Username: " kzy234
+    read -rp "Admin Username: " ADMIN_USER
     [ -n "${ADMIN_USER:-}" ] && break
   done
   while :; do
-    if [ -t 0 ]; then read -rsp "Admin Password: " 234234; echo; else read -rp "Admin Password (visible): " ADMIN_PASS; fi
+    if [ -t 0 ]; then read -rsp "Admin Password: " ADMIN_PASS; echo; else read -rp "Admin Password (visible): " ADMIN_PASS; fi
     [ -n "${ADMIN_PASS:-}" ] && break
   done
 }
