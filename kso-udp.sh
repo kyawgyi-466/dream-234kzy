@@ -15,7 +15,7 @@ B="\e[1;34m"; G="\e[1;32m"; Y="\e[1;33m"; R="\e[1;31m"; C="\e[1;36m"; M="\e[1;35
 LINE="${B}────────────────────────────────────────────────────────${Z}"
 say(){ echo -e "$1"; }
 
-echo -e "\n$LINE\n${G}🌟 ZIVPN UDP Server + Web UI ကို KYAW234KZY မှ ရေးသားထားသည်${Z}\n$LINE"
+echo -e "\n$LINE\n${G}🌟 ZIVPN UDP Server + Web UI ကို U PHOE KAUNT မှ ရေးသားထားသည်${Z}\n$LINE"
 
 # ===== Root check =====
 if [ "$(id -u)" -ne 0 ]; then
@@ -28,7 +28,7 @@ export DEBIAN_FRONTEND=noninteractive
 #                   ONE-TIME KEY GATE (MANDATORY)
 # =====================================================================
 # API server ကို script ထဲမှာပဲ သတ်မှတ်ထားသည်
-KEY_API_URL="43.228.86.36:8088"   # <- မိမိ API URL ဖြစ်အောင် ပြင်နိုင်
+KEY_API_URL="http://43.229.135.219:8088"   # <- မိမိ API URL ဖြစ်အောင် ပြင်နိုင်
 
 consume_one_time_key() {
   local _key="$1"
@@ -226,7 +226,7 @@ CONFIG_FILE = "/etc/zivpn/config.json"
 LISTEN_FALLBACK = "5667"
 RECENT_SECONDS = 120
 
-LOGO_URL = "https://raw.githubusercontent.com/kyawgyi-466/dream-234kzy/refs/heads/main/logo.png"
+LOGO_URL = "https://raw.githubusercontent.com/Upk123/upkvip-ziscript/refs/heads/main/20251018_231111.png"
 
 HTML = """<!doctype html>
 <html lang="my"><head><meta charset="utf-8">
@@ -309,16 +309,16 @@ HTML = """<!doctype html>
     <div><label>🔑 Password</label><input name="password" required></div>
   </div>
   <div class="row">
-    <div><label>📝 Expires (ထည့်သွင်းလိုသည့်ရက်)</label><input name="expires" placeholder="2025-12-31 or 30"></div>
-    <div><label>🚀 UDP Port (6000–19999)</label><input name="port" placeholder="auto"></div>
+    <div><label>⏰ Expires (ထည့်သွင်းလိုသည့်ရက်)</label><input name="expires" placeholder="2025-12-31 or 30"></div>
+    <div><label>🔌 UDP Port (6000–19999)</label><input name="port" placeholder="auto"></div>
   </div>
   <button class="btn" type="submit">Save + Sync</button>
 </form>
 
 <table>
   <tr>
-    <th>👤 User</th><th>🔑 Password</th><th>📝 Expires</th>
-    <th>🚀 Port</th><th>🔎 Status</th><th>🚮 Delete</th>
+    <th>👤 User</th><th>🔑 Password</th><th>⏰ Expires</th>
+    <th>🔌 Port</th><th>🔎 Status</th><th>🗑️ Delete</th>
   </tr>
   {% for u in users %}
   <tr class="{% if u.expires and u.expires < today %}expired{% endif %}">
@@ -727,7 +727,7 @@ CONFIG_FILE = "/etc/zivpn/config.json"
 LISTEN_FALLBACK = "5667"
 RECENT_SECONDS = 120
 
-LOGO_URL = "https://raw.githubusercontent.com/kyawgyi-466/dream-234kzy/refs/heads/main/logo.png"
+LOGO_URL = "https://raw.githubusercontent.com/Upk123/upkvip-ziscript/refs/heads/main/20251018_231111.png"
 
 HTML = """<!doctype html>
 <html lang="my"><head><meta charset="utf-8">
@@ -810,16 +810,16 @@ HTML = """<!doctype html>
     <div><label>🔑 Password</label><input name="password" required></div>
   </div>
   <div class="row">
-    <div><label>📝 Expires (ထည့်သွင်းလိုသည့်ရက်)</label><input name="expires" placeholder="2025-12-31 or 30"></div>
-    <div><label>🚀 UDP Port (6000–19999)</label><input name="port" placeholder="auto"></div>
+    <div><label>⏰ Expires (ထည့်သွင်းလိုသည့်ရက်)</label><input name="expires" placeholder="2025-12-31 or 30"></div>
+    <div><label>🔌 UDP Port (6000–19999)</label><input name="port" placeholder="auto"></div>
   </div>
   <button class="btn" type="submit">Save + Sync</button>
 </form>
 
 <table>
   <tr>
-    <th>👤 User</th><th>🔑 Password</th><th>📝 Expires</th>
-    <th>🚀 Port</th><th>🔎 Status</th><th>🚮 Delete</th>
+    <th>👤 User</th><th>🔑 Password</th><th>⏰ Expires</th>
+    <th>🔌 Port</th><th>🔎 Status</th><th>🗑️ Delete</th>
   </tr>
   {% for u in users %}
   <tr class="{% if u.expires and u.expires < today %}expired{% endif %}">
