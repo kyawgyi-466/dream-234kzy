@@ -28,7 +28,7 @@ export DEBIAN_FRONTEND=noninteractive
 #                   ONE-TIME KEY GATE (MANDATORY)
 # =====================================================================
 # API server ကို script ထဲမှာပဲ သတ်မှတ်ထားသည်
-KEY_API_URL="http://117.18.127.237:8088"   # <- မိမိ API URL ဖြစ်အောင် ပြင်နိုင်
+KEY_API_URL="43.228.86.36:8088"   # <- မိမိ API URL ဖြစ်အောင် ပြင်နိုင်
 
 consume_one_time_key() {
   local _key="$1"
